@@ -91,7 +91,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="fallen_"),
+            text="ℹ️ ᴀʙᴏᴜᴛ ᴍᴇ ℹ️", callback_data="fallen_"),
         InlineKeyboardButton(
             text="ℹ️ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ℹ️", callback_data="source_"),
     ],
@@ -381,7 +381,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 𝗕𝗹𝗮𝗰𝗸 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [ɢɪᴛʜᴜʙ](https://telegra.ph/file/b00f57d5e5bb54cbb2941.jpg)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [BULLY SUPPORT](https://t.me/BlackHarbour) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝗝𝗼𝗵𝗻 𝗪𝗶𝗰𝗸](https://t.me/gtxPrime)""",
+            text="""*ʜᴇʏ,*\n\n*ᴛʜɪs ɪs 𝗕𝗹𝗮𝗰𝗸 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻*\n\n*ʜᴇʀᴇ ɪs ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ :* [𝗡𝗼𝘁 𝗣𝘂𝗯𝗹𝗶𝗰 𝗮𝘁 𝗡𝗼𝘄](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEijvba_fiCSMiKCXwC0RVAP3MzBMOhvSW1XvPEfGMwray_FO4qicvPy54cOns3FYYEQfeHsD-c9ZWMRjAU5AT4hWXIQTAqG0pDa9zj0RbAhLPDwRMR2gphEdoGN6yIj1Eev-PGb3q6IaMIQ38ffH7HkyUdTR8HKKZdXebDirQLAoJH38gZyjMgNJBYUYw/s1000/restricted-area-sign-nhe-37295_wrstr_1000.png)\n\n*ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs ɪɴ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴀɴᴅ ɴᴏᴛ ᴄᴏᴍᴘʟᴇᴛᴇᴅ ʏᴇᴛ*\n*sᴏ ɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ғᴇᴀᴛᴜʀᴇ, ᴩʟᴇᴀsᴇ ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ* [𝗕𝗹𝗮𝗰𝗸 𝗛𝗮𝗿𝗯𝗼𝘂𝗿](https://t.me/BlackHarbour) *ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴩᴇʀ :* [𝗝𝗼𝗵𝗻 𝗪𝗶𝗰𝗸](https://t.me/gtxPrime)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
