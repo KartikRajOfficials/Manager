@@ -13,7 +13,7 @@ ANON = "https://te.legra.ph/file/380118372c4f02dc3fef6.jpg"
 async def repo(client, message):
     await message.reply_photo(
         photo=ANON,
-        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [𝙱𝚄𝙻𝙻𝚈 ✘ ʀᴏʙᴏᴛ-🇮🇩](t.me/bullyxguardianbot)**
+        caption=f"""**ʜᴇʏ​ {message.from_user.mention()},\n\nɪ ᴀᴍ [𝗕𝗹𝗮𝗰𝗸 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻-🇮🇩](https://t.me/BlackSovereignRoBot)**
 
 **» ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ :** [@gtxPrime](tg://user?id=1165094443)
 **» ᴩʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{y()}`
