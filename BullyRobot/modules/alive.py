@@ -11,18 +11,18 @@ from BullyRobot import telethn as tbot
 
 
 PHOTO = [
-    "https://te.legra.ph/file/380118372c4f02dc3fef6.jpg",
-    "https://te.legra.ph/file/380118372c4f02dc3fef6.jpg",
+    "https://telegra.ph/file/d41b53919d63247bd2b0d.png",
+    "https://telegra.ph/file/d41b53919d63247bd2b0d.png",
 ]
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ 𝙱𝚄𝙻𝙻𝚈 ✘ ʀᴏʙᴏᴛ​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗕𝗨𝗟𝗟𝗬](https://t.me/jehrilla_cockroach)** \n\n"
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ 𝗕𝗹𝗮𝗰𝗸 𝗦𝗼𝘃𝗲𝗿𝗲𝗶𝗴𝗻​**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝐉𝐨𝐡𝐧 𝐖𝐢𝐜𝐤](https://t.me/gtxPrime)** \n\n"
   TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
   TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
   TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/bullyxguardianbot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/BullyxSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/BlackSovereignRoBot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/BlackHarbour")]]
   ran = random.choice(PHOTO)
   await tbot.send_file(event.chat_id, ran, caption=TEXT,  buttons=BUTTON)
 
